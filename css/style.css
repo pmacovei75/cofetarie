@@ -1,0 +1,343 @@
+body {
+    margin: 0;
+    font-size: 20px;
+    background: rgba(160, 114, 114, 0.733);
+    font-family: 'Roboto', sans-serif;
+    color: rgba(95, 32, 32, 0.603);
+
+}
+header {
+    background-color: rgba(138, 68, 68, 0.734);
+    height: 70px;
+    display: flex;
+}
+.img-header {
+    margin-top: -10px;
+    width: 100px;
+}
+h1 {
+    text-align: center;
+    color: rgb(228, 226, 226);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    margin-top: -2px;
+}
+nav {
+    height: 40px;
+    background-color: rgb(139, 68, 68);
+    border-top: 2px solid rgb(100, 31, 31);
+    border-bottom: 2px solid rgb(100, 31, 31);
+    padding-top: 5px;
+}
+nav a {
+    font-size: 22px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px 5px;
+    margin-left: 80px;
+    font-weight: bold;
+}
+.container-logo {
+    width: 120px;
+    display: inline-block;
+}
+
+
+.sentered {
+    text-align: center;
+}
+
+aside {
+    box-sizing: border-box;
+    min-height: 80vh;
+    width: 10%;
+    float: left;
+    
+}
+
+aside a {
+    text-align: center;
+    color: rgb(238, 237, 237);
+    font-size: 22px;
+    display: block;
+    background-color: rgba(138, 68, 68, 0.85);
+    padding: 25px 10px;
+    text-decoration: none;
+}
+
+main {
+    box-sizing: border-box;
+    min-height: 80vh;
+    width: 90%;
+    background: linear-gradient(rgba(243, 211, 194, 0.837), rgba(199, 149, 129, 0.837)), no-repeat url(https://www.delonghi.com/Global/recipes/multifry/3.jpg);
+    border-left: 2px solid rgb(163, 53, 53);
+    background-size: cover;
+    background-attachment: fixed;
+    float: left;
+    padding: 18px 7%;
+    box-shadow: inset 0px 0px 8px black;
+}
+.nume-pizza {
+    color: rgb(73, 17, 17) !important;
+}
+.linia {
+    border-top: 5px solid rgb(73, 17, 17);
+    
+}
+.galerea {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img-galerea {
+    width: 250px;
+    border: 2px solid rgb(73, 17, 17);
+    border-radius: 25%;
+   
+}
+.conteiner-index {
+    background-color: rgba(180, 136, 136, 0.35);
+    border-radius: 10px;
+    padding: 10px 2%;
+    box-shadow: 1px 1px 5px rgb(73, 17, 17);
+
+}
+
+.recenzie {
+    min-height: 75px;
+    margin: 10px 0px;
+    background-color: rgb(240, 219, 219);
+    border-radius: 7px;
+    padding: 7px;
+    font-size: 18px;
+    border: 2px solid brown;
+    box-shadow: 2px 3px 10px 4px rgba(131, 119, 119, 0.466);
+    display: flex;
+}
+.recenzie p{
+    padding-left: 10px;
+    text-align:justify;
+}
+.recenzie img {
+    border-radius: 50%;
+    max-height: 150px;
+    border: 1px solid brown;
+}
+
+.centered {
+    text-align: center;
+}
+
+.nota {
+    font-size: 22px;
+    color: rgb(219, 11, 11);
+}
+aside a:hover {
+    background-color: rgba(215, 170, 170, 0.85);
+    color: brown;
+}
+aside a:nth-child(2n+1) {
+    background-color: rgb(172, 103, 103);
+}
+aside a .fas {
+    padding-right: 5px;
+    color:rgb(239, 197, 89);
+}
+footer {
+    background-color: rgb(138, 68, 68);
+    min-height: 40px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    width: 100%;
+    font-size:24px;
+    
+}
+
+[class*=col-] {
+    box-sizing: border-box;
+    float: left;
+}
+.col-1 {width: 10%;}
+.col-2 {width: 20%;}
+.col-3 {width: 30%;}
+.col-4 {width: 40%;}
+.col-5 {width: 50%;}
+.col-6 {width: 60%;}
+.col-7 {width: 70%;}
+.col-8 {width: 80%;}
+.col-9 {width: 90%;}
+.col-10 {width: 100%;}
+
+.row {
+    overflow:auto;
+}
+.compartiment {
+    min-height: 250px;
+    background-color: rgba(180, 136, 136, 0.35);
+    display: flex;
+    margin: 10px 5%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    text-decoration: none;
+    align-items: center;
+    color: white;
+  
+}
+.compartiment img {
+    max-width: 50%;
+    border:2px solid brown;
+    border-radius: 25%;
+    margin: 20px;
+}
+.compartiment:hover {
+    border: 2px solid brown;
+    color: brown !important;
+}
+.compartiment span {
+    font-size: 35px;
+}
+.compartiment:hover img {
+    animation: crug 0.5s;
+}
+.conteiner-contact {
+    min-height: 650px;
+    background-color: rgba(141,98, 98, 0.35);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    padding: 15px 10px;
+
+}
+.forma-contact {
+    padding: 0 10px;
+}
+.forma-contact input, .forma-contact textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 8px;
+    font-size: 18px;
+    background-color: rgba(228, 195, 195, 0.5);
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color: rgb(89, 78, 78);
+    
+    box-sizing: border-box;
+
+}
+#otpraviti:hover {
+    cursor: pointer;
+}
+.forma-contact input::placeholder, .forma-contact textarea::placeholder {
+    color: rgba(70, 70, 70, 0.85);
+    text-decoration: underline;
+}
+.forma-contact input:focus, .forma-contact textarea:focus {
+    border: 1px solid brown;
+}
+@keyframes crug {
+    0% { transform: rotate(-3deg);}
+    40% {transform: rotate(20deg);}
+    100% { transform: rotate(0deg);}
+}
+
+@media (max-width:1300px) {
+    aside {
+        width: 15%;
+    }
+    main {
+        width: 85%;
+    }
+}
+@media (max-width:1000) {
+    aside {
+        width: 20%;
+    }
+    main {
+        width: 80%;
+    }
+}
+@media (max-width:770) {
+    aside {
+        display:none;
+    }
+    main {
+        width: 100%;
+    }
+    [class^="col-"] {
+        width: 100%;
+    }
+    .img-galerie {
+        max-width: 40vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.container-contacte {
+    min-height: 250px;
+    background-color: rgba(141, 98, 98, 0.35);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.75);
+    padding: 15px 10px;
+}
+
+.forma-contact {
+    padding: 0 10px;
+}
+
+.forma-contact input, .forma-contact textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    background-color: rgba(228, 195, 195, 0.5);
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    outline: none;
+    color: inherit;
+    font-family: inherit;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.forma-contact input:focus, .forma-contact textarea:focus {
+    border: 1px solid brown;
+}
+
+.forma-contact input::placeholder, .forma-contact textarea::placeholder {
+    text-decoration: underline;
+    color: rgba(70, 70, 70, 0.85);
+}
+
+#transmite:hover {
+    cursor: pointer;
+    border: 1px solid brown;
+    background-color: rgba(227, 222, 222, 0.55);
+}
+
+.telefoane-contact, .adrese-contact {
+    padding: 5px;
+}
+
+.adrese-contact {
+    margin-bottom: 15px;
+}
+
+.telefoane-contact a {
+    color: inherit !important;
+}
+*/

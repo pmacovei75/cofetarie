@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCRIPT</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="../js/script.js">S</script>
+
+</head>
+
+<body>
+    <h1>Пример изменения контента</h1>
+    <p>JavaScript может изменить контент какого-то HTML-элемента:</p>
+    <button type="button" onclick="functie()">Нажми на кнопку!</button>
+    <p id="et">Посмотри результат!</p>
+    <!-- II metoda -->
+    <p id="et1">Нажми на кнопку чтобы увидеть результат манипулирования содержанием элемента - удаление контента
+        (innerHTML)
+    </p>
+
+    <button onclick="functie1()">Click</button>
+    <p id="et2">Нажми на кнопку чтобы увидеть результат манипулирования содержанием элемента - изменение контента
+        (innerHTML)
+    </p>
+    <button onclick="functie2()">Click</button>
+    <!-- III PROMPT -->
+    <p>Напишите результат для следующего арифметического выражения</p>
+    <button onclick="vezi()">Попробуй</button>
+    <p id="rez"></p>
+
+    <!-- Переменные -->
+    <p>Определение переменных</p>
+    <p id="et1"></p>
+    <p id="et2"></p>
+    <p id="et3"></p>
+
+    <button onclick="getElementById('et4').innerHTML=Date();">Нажми чтобы узнать время</button>
+    <p id="et4"></p>
+
+    <button onclick="compar()">cklik</button>
+    <p id="et6"></p>
+    <script>
+        function compar() {
+        var x = 5;
+        document.getElementById("et6").innerHTML = (x === 5);
+
+    }
+    </script>
+
+
+    
+
+
+
+
+
+
+</body >
+
+</html >
